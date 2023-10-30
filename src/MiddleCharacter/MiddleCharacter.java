@@ -12,7 +12,7 @@ public class MiddleCharacter {
             System.out.println(input.charAt(inputSize/2));
         }
         else {
-            System.out.println(input.charAt(inputSize/2 - 1) + input.charAt(inputSize/2));
+            System.out.println(input.charAt(inputSize/2 - 1) + "" + input.charAt(inputSize/2));
         }
     }
 }
